@@ -39,7 +39,7 @@ cars=[car1,car2,car3,car4];
         form.hide();
         textSize(30);
         text("Game Start", 120, 100);
-        player.getPlayerInfo();
+        Player.getPlayerInfo();
         if(allPlayers !== undefined)
         {
             var index=0;
